@@ -1,0 +1,138 @@
+body {
+    font-family: "Inter", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F4F5FB;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #F4F5FB;
+}
+
+header img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #374151;
+}
+
+main {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #080B12;
+    font-style: bold;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #CA3884;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #A52C6B;
+}
+
+.shopping-list {
+    list-style: none;
+    padding: 0;
+}
+
+.shopping-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow:#D1D5DB;
+}
+
+.shopping-list li span {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+}
+
+.shopping-list li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.shopping-list li button img {
+    width: 30px;
+    height: 30px;
+}
+.form-container input:hover, 
+.shopping-list li:hover {
+    border-color: #A52C6B;
+}
+
+.form-container input, 
+.shopping-list li {
+    transition: border-color 0.3s ease;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    padding: 10px 20px;
+    background-color: #C93847;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer span {
+    margin-right: 10px;
+}
+
+footer button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
